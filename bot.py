@@ -108,4 +108,5 @@ app.add_handler(MessageHandler(filters.Document.ALL, handle_file))
 app.add_handler(CallbackQueryHandler(callback_handler))
 app.add_handler(MessageHandler(filters.TEXT & (~filters.COMMAND), any_message))
 
-app.run_polling()
+if __name__ == "__main__":
+    app.run_polling()
