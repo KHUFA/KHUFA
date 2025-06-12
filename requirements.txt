@@ -1,0 +1,6 @@
+python-telegram-bot==20.3
+pillow
+python-docx
+PyPDF2
+pywin32
+qrcode
